@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plugin1
+Bundle-SymbolicName: com.ichir.projects.p2update.plugin1; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ichir.projects.p2update.plugin1.Activator
+Bundle-Vendor: ICHIR
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.equinox.p2.core,
+ org.eclipse.equinox.p2.operations,
+ org.eclipse.equinox.p2.repository,
+ org.eclipse.equinox.p2.metadata
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
